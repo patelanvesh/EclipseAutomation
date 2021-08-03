@@ -1,0 +1,9 @@
+package AnveshTesting;
+
+
+
+public class testRunnerTestNG
+{ 	//extends used to execute in testNG
+	
+	
+}

@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="io.cucumber.java.en.And"/>
     <fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
-    <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
     <fullyQualifiedTypeName name="io.cucumber.java.PendingException"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
     <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
@@ -20,4 +19,6 @@
     <fullyQualifiedTypeName name="java.sql.Driver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="pageObjects.HomePage"/>
+    <fullyQualifiedTypeName name="org.testng.internal.TestNGClassFinder"/>
+    <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
 </qualifiedTypeNameHistroy>

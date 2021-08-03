@@ -13702,3 +13702,42 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2021-08-03 10:11:33,398 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-08-03 10:11:33,399 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
 2021-08-03 10:11:33,401 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-03 10:11:33,401 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:05:34,751 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:05:34,752 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:05:34,753 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:05:34,753 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:08:24,748 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AnveshTesting:MavenJava:1.0-SNAPSHOT @ C:\Drive D\Eclipse\MavenJava\pom.xml.
+2021-08-04 01:08:25,722 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:08:25,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:08:25,724 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:08:25,724 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:08:53,392 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:08:53,393 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:08:53,394 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:08:53,395 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:10:35,840 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:10:35,840 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:10:35,841 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:10:35,841 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:12:06,486 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AnveshTesting:MavenJava:1.0-SNAPSHOT @ C:\Drive D\Eclipse\MavenJava\pom.xml.
+2021-08-04 01:12:07,334 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:12:07,335 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:12:07,335 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:12:07,336 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:12:08,998 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:12:08,998 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:12:08,999 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:12:09,000 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:12:50,798 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:12:50,798 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:12:50,799 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:12:50,799 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:14:04,912 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:14:04,913 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\main\resources
+2021-08-04 01:14:04,914 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:14:04,914 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\MavenJava\src\test\resources
+2021-08-04 01:14:45,205 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:14:45,206 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\Automation\src\main\resources
+2021-08-04 01:14:45,207 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-04 01:14:45,209 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Drive D\Eclipse\Automation\src\test\resources

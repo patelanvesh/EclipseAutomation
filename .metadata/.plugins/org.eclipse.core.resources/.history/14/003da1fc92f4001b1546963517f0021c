@@ -1,0 +1,22 @@
+package AnveshTesting;
+
+import java.util.List;
+import java.util.Map;
+
+import org.testng.DataProviderHolder;
+import org.testng.ITestContext;
+import org.testng.internal.ClassInfoMap;
+import org.testng.internal.IConfiguration;
+import org.testng.internal.TestNGClassFinder;
+
+public class testRunnerTestNG extends TestNGClassFinder
+{
+
+	public testRunnerTestNG(ClassInfoMap cim, Map<Class<?>, List<Object>> instanceMap, IConfiguration configuration,
+			ITestContext testContext, DataProviderHolder holder) {
+		super(cim, instanceMap, configuration, testContext, holder);
+		// TODO Auto-generated constructor stub
+	} 	//extends used to execute in testNG
+	
+	
+}

@@ -6,7 +6,11 @@
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-        <listEntry value="AnveshTesting.testRunnerTestNG"/>
+        <listEntry value="AnveshTesting.restAPITest"/>
+        <listEntry value="AnveshTesting.seleniumTest"/>
+        <listEntry value="AnveshTesting.testRunner"/>
+        <listEntry value="AnveshTesting.App"/>
+        <listEntry value="AnveshTesting.appiumTest"/>
     </listAttribute>
     <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
     <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>

@@ -1,0 +1,25 @@
+
+@tag
+Feature: Search and place order for vedgetables
+
+  @seleniumTest
+  Scenario: search for items and validate results
+    Given user is on Greencart landing page
+    When user searched for "Cucumber" vedgetable
+    Then "Cucumber" results are displayed
+
+  @seleniumTest
+  Scenario Outline: search for items and then move to checkout page
+    Given user is on Greencart landing page
+    When user searched for "Brinjal" vedgetable
+    Then "Brinjal" results are displayed
+    And added items to cart
+    And user proceed to checkout page for purchase
+   	Then verify selected "Brinjal" items are displayed in checkout page
+   	
+   	 Examples:
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+  
+  

@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-03T10:11:32 IST" name="Surefire suite" finished-at="2021-08-03T10:11:32 IST" duration-ms="45">
+  <suite started-at="2021-08-04T01:02:16 IST" name="Surefire suite" finished-at="2021-08-04T01:02:16 IST" duration-ms="44">
     <groups>
     </groups>
-    <test started-at="2021-08-03T10:11:32 IST" name="Surefire test" finished-at="2021-08-03T10:11:32 IST" duration-ms="45">
+    <test started-at="2021-08-04T01:02:16 IST" name="Surefire test" finished-at="2021-08-04T01:02:16 IST" duration-ms="44">
       <class name="AnveshTesting.restAPITest">
-        <test-method signature="API2()" started-at="2021-08-03T10:11:32 IST" name="API2" finished-at="2021-08-03T10:11:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- API2 -->
-        <test-method signature="API1()" started-at="2021-08-03T10:11:32 IST" name="API1" finished-at="2021-08-03T10:11:32 IST" duration-ms="0" status="PASS">
+        <test-method signature="API1()" started-at="2021-08-04T01:02:16 IST" name="API1" finished-at="2021-08-04T01:02:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- API1 -->
-      </class> <!-- AnveshTesting.restAPITest -->
-      <class name="AnveshTesting.seleniumTest">
-        <test-method signature="elements()" started-at="2021-08-03T10:11:32 IST" name="elements" finished-at="2021-08-03T10:11:32 IST" duration-ms="0" status="PASS">
+        <test-method signature="API2()" started-at="2021-08-04T01:02:16 IST" name="API2" finished-at="2021-08-04T01:02:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- elements -->
-        <test-method signature="BrowserAutomation()" started-at="2021-08-03T10:11:32 IST" name="BrowserAutomation" finished-at="2021-08-03T10:11:32 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- API2 -->
+      </class> <!-- AnveshTesting.restAPITest -->
+      <class name="AnveshTesting.seleniumTest">
+        <test-method signature="BrowserAutomation()" started-at="2021-08-04T01:02:16 IST" name="BrowserAutomation" finished-at="2021-08-04T01:02:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserAutomation -->
+        <test-method signature="elements()" started-at="2021-08-04T01:02:16 IST" name="elements" finished-at="2021-08-04T01:02:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elements -->
       </class> <!-- AnveshTesting.seleniumTest -->
       <class name="AnveshTesting.appiumTest">
-        <test-method signature="TestApps()" started-at="2021-08-03T10:11:32 IST" name="TestApps" finished-at="2021-08-03T10:11:32 IST" duration-ms="5" status="PASS">
+        <test-method signature="TestApps()" started-at="2021-08-04T01:02:16 IST" name="TestApps" finished-at="2021-08-04T01:02:16 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestApps -->
-        <test-method signature="NavtiveApps()" started-at="2021-08-03T10:11:32 IST" name="NavtiveApps" finished-at="2021-08-03T10:11:32 IST" duration-ms="5" status="PASS">
+        <test-method signature="NavtiveApps()" started-at="2021-08-04T01:02:16 IST" name="NavtiveApps" finished-at="2021-08-04T01:02:16 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavtiveApps -->

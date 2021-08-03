@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.722">
-    <testcase classname="Search and place order for vedgetables" name="search for items and validate results" time="18.502">
-        <failure message="chrome not reachable&#10;  (Session info: chrome=92.0.4515.107)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'&#10;System info: host: 'DESKTOP-7EPLT3L', ip: '192.168.29.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\FL_LPT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e05e7f7e48fc1cbf32c1e54dbd96dc0f&#10;*** Element info: {Using=css selector, value=h4.product-name}" type="org.openqa.selenium.WebDriverException"><![CDATA[Given user is on Greencart landing page.....................................passed
-When user searched for Cucumber vedgetable..................................passed
-Then Cucumber results are displayed.........................................failed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.002">
+    <testcase classname="Search and place order for vedgetables" name="search for items and validate results" time="7.798">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=92.0.4515.107)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'&#10;System info: host: 'DESKTOP-7EPLT3L', ip: '192.168.29.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\FL_LPT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdc90fe2c75c47601a0778640ad63370&#10;*** Element info: {Using=xpath, value=//input[@type='search']}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user is on Greencart landing page.....................................passed
+When user searched for Cucumber vedgetable..................................failed
+Then Cucumber results are displayed.........................................skipped
 
 StackTrace:
-org.openqa.selenium.WebDriverException: chrome not reachable
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=92.0.4515.107)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'DESKTOP-7EPLT3L', ip: '192.168.29.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\FL_LPT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e05e7f7e48fc1cbf32c1e54dbd96dc0f
-*** Element info: {Using=css selector, value=h4.product-name}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\FL_LPT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fdc90fe2c75c47601a0778640ad63370
+*** Element info: {Using=xpath, value=//input[@type='search']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -26,12 +27,12 @@ Session ID: e05e7f7e48fc1cbf32c1e54dbd96dc0f
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageObjects.HomePage.getProductName(HomePage.java:27)
-	at stepDefinations.MyStepDefinitions.something_results_are_displayed(MyStepDefinitions.java:29)
-	at ✽.Cucumber results are displayed(file:///C:/Drive%20D/Eclipse/Automation/src/test/java/features/search.feature:9)
+	at pageObjects.HomePage.getSearch(HomePage.java:21)
+	at stepDefinations.MyStepDefinitions.user_searched_for_vedgetables(MyStepDefinitions.java:51)
+	at ✽.user searched for Cucumber vedgetable(file:///C:/Drive%20D/Eclipse/Automation/src/test/java/features/search.feature:8)
 ]]></failure>
     </testcase>
 </testsuite>

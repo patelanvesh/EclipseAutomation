@@ -16,7 +16,7 @@ public class Base {
 		prop = new Properties();
 		 FileInputStream fis = new FileInputStream("C:\\Drive D\\Eclipse\\Automation\\src\\test\\java\\Cucumber\\Automation\\global.properties");
 		 prop.load(fis);
-		 System.setProperty("webdriver.chrome.driver", "C:\\Drive D\\Selenium\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\Drive D\\Eclipse\\Automation\\Browser\\chromedriver.exe");
 		 driver=new ChromeDriver();
 		 driver.get(prop.getProperty("URL"));
 		 return driver;

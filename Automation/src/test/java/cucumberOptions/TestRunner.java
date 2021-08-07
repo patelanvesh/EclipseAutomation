@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/java/features",
 		glue="stepDefinations",
 		stepNotifications = true,
-		tags="@smokeTest",
+//		tags="@smokeTest",
 //		tags ="@tag3 or @tag1 or tag2",
 //		dryRun=true,
 		monochrome=true,

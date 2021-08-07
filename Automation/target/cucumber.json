@@ -1,9 +1,371 @@
 [
   {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-07T17:07:53.453Z",
+        "before": [
+          {
+            "result": {
+              "duration": 995500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.hooks.before_tag1_Scenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Basic scenario",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;basic-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.hooks.after_tag1_Scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 991800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "stepDefinations.stepDefination.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "some other precondition",
+            "match": {
+              "location": "stepDefinations.stepDefination.some_other_precondition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I complete action with \"string\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "string",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_complete_action_with_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "some other action",
+            "match": {
+              "location": "stepDefinations.stepDefination.some_other_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "yet another action",
+            "match": {
+              "location": "stepDefinations.stepDefination.yet_another_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "stepDefinations.stepDefination.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "check more outcomes",
+            "match": {
+              "location": "stepDefinations.stepDefination.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-07T17:07:53.534Z",
+        "line": 52,
+        "name": "scenario with values",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;scenario-with-values;#it-is-keyword-to-pass-the-parameterized-vaues;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I want to write a step with name name1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name1",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_want_to_write_a_step_with_name(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1017100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I check for the 5 in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_check_for_the_in_step(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I verify the success in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_verify_the_in_step(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-07T17:07:53.541Z",
+        "line": 53,
+        "name": "scenario with values",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;scenario-with-values;#it-is-keyword-to-pass-the-parameterized-vaues;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I want to write a step with name name2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "name2",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_want_to_write_a_step_with_name(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I check for the 7 in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_check_for_the_in_step(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I verify the Fail in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fail",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.stepDefination.i_verify_the_in_step(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-07T17:07:53.551Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.hooks.before_Scenario()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "data driven scenario",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;data-driven-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.hooks.after_Scenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user is on signup page",
+            "match": {
+              "location": "stepDefinations.stepDefination.user_is_on_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user signup with following details",
+            "match": {
+              "location": "stepDefinations.stepDefination.user_signup_with_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First name",
+                  "Last name",
+                  "email@yopmail.com",
+                  "Address",
+                  "50324"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature I want to use this template for my feature file",
+    "description": "",
+    "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-08-03T19:32:49.863Z",
+        "start_timestamp": "2021-08-07T17:07:53.565Z",
         "line": 6,
         "name": "search for items and validate results",
         "description": "",
@@ -11,9 +373,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d92.0.4515.107)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-7EPLT3L\u0027, ip: \u0027192.168.29.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\\Users\\FL_LPT~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fdc90fe2c75c47601a0778640ad63370\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)\r\n\tat stepDefinations.hooks.after_smoketest(hooks.java:37)\r\n",
-              "duration": 4439113900,
-              "status": "failed"
+              "duration": 104841100,
+              "status": "passed"
             },
             "match": {
               "location": "stepDefinations.hooks.after_smoketest()"
@@ -25,7 +386,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3178617400,
+              "duration": 4162230400,
               "status": "passed"
             },
             "line": 7,
@@ -37,9 +398,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d92.0.4515.107)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-7EPLT3L\u0027, ip: \u0027192.168.29.104\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\\Users\\FL_LPT~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fdc90fe2c75c47601a0778640ad63370\n*** Element info: {Using\u003dxpath, value\u003d//input[@type\u003d\u0027search\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pageObjects.HomePage.getSearch(HomePage.java:21)\r\n\tat stepDefinations.MyStepDefinitions.user_searched_for_vedgetables(MyStepDefinitions.java:51)\r\n\tat ✽.user searched for Cucumber vedgetable(file:///C:/Drive%20D/Eclipse/Automation/src/test/java/features/search.feature:8)\r\n",
-              "duration": 49865600,
-              "status": "failed"
+              "duration": 2183523200,
+              "status": "passed"
             },
             "line": 8,
             "name": "user searched for Cucumber vedgetable",
@@ -56,7 +416,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 51565000,
+              "status": "passed"
             },
             "line": 9,
             "name": "Cucumber results are displayed",
@@ -78,6 +439,246 @@
           },
           {
             "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-07T17:08:00.085Z",
+        "line": 22,
+        "name": "search for items and then move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vedgetables;search-for-items-and-then-move-to-checkout-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 316469200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.hooks.after_Seleniumtest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2531254600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Greencart landing page",
+            "match": {
+              "location": "stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2188334100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user searched for Brinjal vedgetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinations.MyStepDefinitions.user_searched_for_vedgetables(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51281900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Brinjal results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.MyStepDefinitions.something_results_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228721300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "added items to cart",
+            "match": {
+              "location": "stepDefinations.MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95206200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user proceed to checkout page for purchase",
+            "match": {
+              "location": "stepDefinations.MyStepDefinitions.user_proceed_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42120300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify selected Brinjal items are displayed in checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.stepDefination.verify_selected_items_are_displayed_in_checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@seleniumTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-07T17:08:05.553Z",
+        "line": 23,
+        "name": "search for items and then move to checkout page",
+        "description": "",
+        "id": "search-and-place-order-for-vedgetables;search-for-items-and-then-move-to-checkout-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 78870800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.hooks.after_Seleniumtest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2789561100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Greencart landing page",
+            "match": {
+              "location": "stepDefinations.MyStepDefinitions.user_is_on_greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2135223900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user searched for Beetroot vedgetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinations.MyStepDefinitions.user_searched_for_vedgetables(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27035700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Beetroot results are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinations.MyStepDefinitions.something_results_are_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105834300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "added items to cart",
+            "match": {
+              "location": "stepDefinations.MyStepDefinitions.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96537700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user proceed to checkout page for purchase",
+            "match": {
+              "location": "stepDefinations.MyStepDefinitions.user_proceed_to_checkout_page_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24743600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify selected Beetroot items are displayed in checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinations.stepDefination.verify_selected_items_are_displayed_in_checkout_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@seleniumTest"
           }
         ]
       }

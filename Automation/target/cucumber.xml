@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.002">
-    <testcase classname="Search and place order for vedgetables" name="search for items and validate results" time="7.798">
-        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=92.0.4515.107)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'&#10;System info: host: 'DESKTOP-7EPLT3L', ip: '192.168.29.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\FL_LPT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fdc90fe2c75c47601a0778640ad63370&#10;*** Element info: {Using=xpath, value=//input[@type='search']}" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user is on Greencart landing page.....................................passed
-When user searched for Cucumber vedgetable..................................failed
-Then Cucumber results are displayed.........................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=92.0.4515.107)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'DESKTOP-7EPLT3L', ip: '192.168.29.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\FL_LPT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fdc90fe2c75c47601a0778640ad63370
-*** Element info: {Using=xpath, value=//input[@type='search']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pageObjects.HomePage.getSearch(HomePage.java:21)
-	at stepDefinations.MyStepDefinitions.user_searched_for_vedgetables(MyStepDefinitions.java:51)
-	at ✽.user searched for Cucumber vedgetable(file:///C:/Drive%20D/Eclipse/Automation/src/test/java/features/search.feature:8)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="17.632">
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="Basic scenario" time="0.074">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with "string"........................................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And check more outcomes.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="scenario with values" time="0.003">
+        <system-out><![CDATA[Given I want to write a step with name name1................................passed
+When I check for the 5 in step..............................................passed
+Then I verify the success in step...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="scenario with values 2" time="0.002">
+        <system-out><![CDATA[Given I want to write a step with name name2................................passed
+When I check for the 7 in step..............................................passed
+Then I verify the Fail in step..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="data driven scenario" time="0.006">
+        <system-out><![CDATA[Given user is on signup page................................................passed
+When user signup with following details.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vedgetables" name="search for items and validate results" time="6.511">
+        <system-out><![CDATA[Given user is on Greencart landing page.....................................passed
+When user searched for Cucumber vedgetable..................................passed
+Then Cucumber results are displayed.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vedgetables" name="search for items and then move to checkout page" time="5.463">
+        <system-out><![CDATA[Given user is on Greencart landing page.....................................passed
+When user searched for Brinjal vedgetable...................................passed
+Then Brinjal results are displayed..........................................passed
+And added items to cart.....................................................passed
+And user proceed to checkout page for purchase..............................passed
+Then verify selected Brinjal items are displayed in checkout page...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place order for vedgetables" name="search for items and then move to checkout page 2" time="5.262">
+        <system-out><![CDATA[Given user is on Greencart landing page.....................................passed
+When user searched for Beetroot vedgetable..................................passed
+Then Beetroot results are displayed.........................................passed
+And added items to cart.....................................................passed
+And user proceed to checkout page for purchase..............................passed
+Then verify selected Beetroot items are displayed in checkout page..........passed
+]]></system-out>
     </testcase>
 </testsuite>

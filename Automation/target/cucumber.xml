@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="17.632">
-    <testcase classname="Title of your feature I want to use this template for my feature file" name="Basic scenario" time="0.074">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="17.135">
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="Basic scenario" time="0.071">
         <system-out><![CDATA[Given I want to write a step with precondition..............................passed
 And some other precondition.................................................passed
 When I complete action with "string"........................................passed
@@ -10,30 +10,30 @@ Then I validate the outcomes................................................pass
 And check more outcomes.....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Title of your feature I want to use this template for my feature file" name="scenario with values" time="0.003">
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="scenario with values" time="0.004">
         <system-out><![CDATA[Given I want to write a step with name name1................................passed
 When I check for the 5 in step..............................................passed
 Then I verify the success in step...........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Title of your feature I want to use this template for my feature file" name="scenario with values 2" time="0.002">
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="scenario with values 2" time="0.003">
         <system-out><![CDATA[Given I want to write a step with name name2................................passed
 When I check for the 7 in step..............................................passed
 Then I verify the Fail in step..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Title of your feature I want to use this template for my feature file" name="data driven scenario" time="0.006">
+    <testcase classname="Title of your feature I want to use this template for my feature file" name="data driven scenario" time="0.008">
         <system-out><![CDATA[Given user is on signup page................................................passed
 When user signup with following details.....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search and place order for vedgetables" name="search for items and validate results" time="6.511">
+    <testcase classname="Search and place order for vedgetables" name="search for items and validate results" time="5.822">
         <system-out><![CDATA[Given user is on Greencart landing page.....................................passed
 When user searched for Cucumber vedgetable..................................passed
 Then Cucumber results are displayed.........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search and place order for vedgetables" name="search for items and then move to checkout page" time="5.463">
+    <testcase classname="Search and place order for vedgetables" name="search for items and then move to checkout page" time="5.492">
         <system-out><![CDATA[Given user is on Greencart landing page.....................................passed
 When user searched for Brinjal vedgetable...................................passed
 Then Brinjal results are displayed..........................................passed
@@ -42,7 +42,7 @@ And user proceed to checkout page for purchase..............................pass
 Then verify selected Brinjal items are displayed in checkout page...........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search and place order for vedgetables" name="search for items and then move to checkout page 2" time="5.262">
+    <testcase classname="Search and place order for vedgetables" name="search for items and then move to checkout page 2" time="5.508">
         <system-out><![CDATA[Given user is on Greencart landing page.....................................passed
 When user searched for Beetroot vedgetable..................................passed
 Then Beetroot results are displayed.........................................passed
